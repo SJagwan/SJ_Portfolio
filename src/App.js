@@ -1,26 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Page from './Pages/Page'
+
+
+
+class App extends React.Component {
+
+  componentDidMount(){
+        const aboutMe=document.getElementById("about");
+        const header1=document.getElementById("header");
+
+        const options={
+          threshold:0.3,
+          // rootMargin:"0px 0px 0px 0px"
+        };
+        const observerHeader= new IntersectionObserver(function(entries,observerHeader){
+            entries.forEach(entry => {
+              
+              if(!entry.isIntersecting)
+              {
+                header1.classList.add("header_new");
+              }
+              else{
+                header1.classList.remove("header_new");
+              }
+            });
+
+        },options);
+
+        observerHeader.observe(aboutMe); 
+  }
+
+
+  render() {
+    return (
+      <div className="App">
+        <Page/>
+      </div>
+    );
+  }
 }
-
 export default App;

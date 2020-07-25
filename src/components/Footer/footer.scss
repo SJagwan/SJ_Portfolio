@@ -1,0 +1,26 @@
+.footer{
+    margin-top: 20px;
+    background-color: red;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+
+
+    .footer_p{
+        color: white;
+        animation: rotate 10s linear infinite;
+    }
+    @keyframes rotate{
+        0%{
+            transform: translate(0);
+        }
+        50%{
+            transform: translate(70vw);
+        }
+
+
+    }
+}
+
+//#20c997
