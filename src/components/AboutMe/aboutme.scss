@@ -26,9 +26,14 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        left:3rem;
+        left:3%;
         @media screen and (max-width:800px){
             display: none;
+          }
+          @media screen and (min-width:1500px){
+             top: 12%;
+             left:7%;
+             width:450px;
           }
     }
 
@@ -37,9 +42,9 @@
         padding: 50px 40px;
         width: 80%;
         padding-left: 350px;
-        height: 95%;
+        height: 100%;
         margin-bottom: 20px;
-        clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+        clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 10% 50%, 0% 0%);
         box-shadow: 5px 20px 50px rgba(0,0,0,0.5);
         overflow: auto;
 
@@ -51,6 +56,10 @@
             padding-left: 0px;
             padding: 10px 20px;
             height: 100%;
+          }
+          @media screen and (min-width:1500px){
+              padding-left: 400px;
+            max-width: 1500px;
           }
 
         .aboutme_h1{
@@ -65,9 +74,11 @@
                 margin-bottom: 3rem;
                 @media screen and (max-width:800px){
                     width: 60%;
-                  }
-                
-            } 
+                  }                    
+            }
+            @media screen and (min-width:1500px){
+                font-size: 5rem;
+              } 
         }
         .aboutme_p{
             font-family: 'Roboto', sans-serif;

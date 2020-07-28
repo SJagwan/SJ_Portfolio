@@ -20,5 +20,8 @@
             background: red;
             margin-bottom: 3rem;
         } 
+        @media screen and (min-width:1500px){
+            font-size: 5rem;
+          }
     }
 }

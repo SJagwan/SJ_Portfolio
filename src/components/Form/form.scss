@@ -8,6 +8,9 @@ $main-color:black;
     @media screen and (max-width:800px){
         width: 100%;
         }
+        @media screen and (min-width:1500px){
+            max-width: 700px;
+        }
     
     .form{
         height: 100%;
