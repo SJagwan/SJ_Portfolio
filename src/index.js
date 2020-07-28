@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+// "homepage": "https://SJagwan.github.io/SJ_Portfolio",
 ReactDOM.render(
   <React.StrictMode>
     <App />

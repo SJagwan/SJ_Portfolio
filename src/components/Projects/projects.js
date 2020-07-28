@@ -9,7 +9,7 @@ const projectd=[
         id:1,
         title:"SJ_Portfolio",
         ImageUrl:'https://ik.imagekit.io/s27s12j97/Portfolio/LP_g_2JLc84L.png',
-        link:'https://sjagwan.github.io/SJ_Portfolio/',
+        link:'https://sjagwan.com/',
         codelink:"https://github.com/SJagwan/SJ_Portfolio",
         discription:"This website which you are now seeing is the portfolio.It is a Portfolio website.",
         skill:"Skill that are used in making this projects are React , Javascript , Saas , react-scroll , html , css",
