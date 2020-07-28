@@ -15,7 +15,7 @@ const Aboutme = () => {
                 <p className="aboutme_p">I like building websites.
                     I'm self-directed and motivated full-stack software developer experienced
                     in working effectively in dynamic environments.</p><br/>
-                <Link to="contact" smooth="easeInOutQuad"><div className="aboutme_button">Contact</div></Link>
+                <Link to="contact" smooth="easeInOutQuad" offset={-50}><div className="aboutme_button">Contact</div></Link>
 
             </div>
            

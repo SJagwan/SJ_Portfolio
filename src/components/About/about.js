@@ -11,7 +11,7 @@ class About extends Component {
                 <div className="about_text">
                         <h1 className="about_h1">Hello ,My name is <span className="about_span_h1"> Shubhanshu</span></h1>
                         <h3 className="about_h3">I'm a <span className="about_span_h3">Web-Developer</span></h3>
-                        <Link to="aboutme" smooth="easeInOutQuad" className="about_l"><p className="about_p">Learn more</p></Link>
+                        <Link to="aboutme" smooth="easeInOutQuad" offset={-50} className="about_l"><p className="about_p">Learn more</p></Link>
                         <div className="about_div">
                             <a href="https://github.com/SJagwan" target="blank"><img src={github} width="25px" height="25px"  alt="github"/></a>
                             <a  href="https://www.linkedin.com/in/shubhanshu-jagwan/" target="blank"><img src={linkedin} width="25px" height="25px"  alt="linked"/></a>
